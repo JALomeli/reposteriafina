@@ -1,0 +1,131 @@
+/*
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px purple;
+    /* movimiento de imagenes*/ /*
+    position: relative;
+    left: 350px;
+}
+*/
+    /* movimiento de imagenes*/
+/* 
+.btnImg{
+    position:relative;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:#000000;
+    box-shadow: none;
+
+}
+*/
+/* 
+h1{
+    /*cambiar de color el textp*/ /*
+    color:#ffffff;
+
+    /*ponerle fondo al texto*/ /*
+    background-color: #000000;
+
+    /*Cambiar tamano de texto*/ /*
+    font-size: 50px;
+
+    /*Cambiar tipo de letra*/ /*
+    font-family: 'Arial';
+
+    /*Cambiar el grosor de la letra*/  /*Italic, normal, bold se pueden utilizar numeros*/ /*
+    font-weight: 700;
+
+    /*Cambiar el estilo de la letra*/   /*
+    font-style: italic;
+
+    /*Cambiar el espaciado entre letras*/   /*
+    letter-spacing: 5px;
+
+    /*Cambiar el espaciado entre palabras*/   /*
+    word-spacing: 5px;
+
+    /*Cambiar el espaciado entre palabras*/   /*
+    line-height: 50px;
+
+    /*Cambiar el alinamiento del texto, left, center right*/  /*
+    text-align: left;
+
+    /*camniar el decorado del texto*/  /*
+    text-decoration: underline wavy red; 
+    /*text-decoration: underline; 
+    text-decoration: wavy; 
+    text-decoration: red; */  
+
+    /*camniar el transformado del texto*/ /*
+    text-transform: capitalize;
+    
+    /*camniar el sombreado del texto*/  /*
+    text-shadow: 10px 10px 10px #000000;
+
+
+}
+
+h2{
+    background-color: #000000;
+    color: #000000;
+    text-align: right;
+    
+    /*padding arriba, derecha, abajo e izquierda, cuanto respira el elemtno*/ /*
+    padding: 10px 20px 30px 40px;
+
+    /*border color, width, style*/ /*
+    border: #000000 5px solid;
+
+    /*border-color: #000000 red blue yellow;
+    border-style: solid dotted dashed double:
+    border-width: 5px 10px 15px 20px;*/ /*
+
+}
+
+h3{
+    background-color: #000000;
+    color: #ffffff;
+    display: inline;
+}
+
+h4{
+    display: inline;
+}
+h5{
+    display: none;
+}
+h6{
+    display: block;
+}
+
+a{ 
+    background-color: #606060;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px dotted white;
+    margin:10 px
+    display: inline-block;
+    box-shadow: 10px 10px 10px white;
+
+}
+
+a:hover{ 
+    background-color: #606060;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px white;
+}
+
+body{
+    /*gradientes*/
+    background: linear-gradient(98deg,black,white);
+/*
+}

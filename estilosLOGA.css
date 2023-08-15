@@ -1,70 +1,37 @@
-h1{
-    color:#000000;
+h1 {
+    color: #000000;
     background-color: #f8d4d9;
     font-size: 50px;
     text-align: center;
     font-family: "Georgia"; 
     font-weight: bold;
-    /*camniar el sombreado del texto*/  
     text-shadow: 2px 2px 5px #000000;
-
-    /*padding arriba, derecha, abajo e izquierda, cuanto respira el elemtno*/ 
-    padding: 2px 2px 2px 2px;
-
-    /*border color, width, style*/ 
-    border: #000000 5px solid;
+    padding: 2px;
+    border: 5px solid #000000;
     margin: 1px;
-
 }
-.btnImg{
+
+.btnImg {
     width: 12rem;
     height: 12rem;
-    /*border: 5px solid rgb(0, 0, 0);*/
     position: relative;
     left: 17rem;
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
     margin: 5px;
     display: inline-block;
-    text-decoration: none
+    text-decoration: none;
 }
 
-.btnImg2 {
-    width: 3rem;
-    height: 3rem;
-    /*border: 5px solid rgb(0, 0, 0);*/
-    position: relative;
-    right: -70rem;
-    top: -6rem; /* Ajusta la distancia vertical según tus necesidades */
-    padding: 2px;
-    display: inline-block;
-    border-radius: 1px;
-
-}
-.btnImg3 {
-    width: 3rem;
-    height: 3rem;
-    /*border: 5px solid rgb(0, 0, 0);*/
-    position: relative;
-    right: -71rem;
-    top: -6rem; /* Ajusta la distancia vertical según tus necesidades */
- /* Ajusta la distancia vertical según tus necesidades */
-    padding: 2px;
-    display: inline-block;
-    border-radius: 1px;
-
-}
+.btnImg2,
+.btnImg3,
 .btnImg4 {
     width: 3rem;
     height: 3rem;
-    /*border: 5px solid rgb(0, 0, 0);*/
     position: relative;
-    right: -72rem;
-    top: -6rem; /* Ajusta la distancia vertical según tus necesidades */
- /* Ajusta la distancia vertical según tus necesidades */
+    right: -70rem;
+    top: -6rem;
     padding: 2px;
     display: inline-block;
     border-radius: 1px;
-
 }
-
 

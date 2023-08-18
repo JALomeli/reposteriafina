@@ -1,0 +1,81 @@
+
+.headerPrincipal .container{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.headerPrincipal-titulo {
+    
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 25rem;
+}
+
+.headerPrincipal .container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerPrincipal-nav-link{
+    border: 0.05rem solid #b2afaf;
+    border-radius: 8%;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+.headerPrincipal-nav-link:hover{
+    color: #F2F5F7;
+    background-color: rgb(172, 172, 172);
+    color: #6701ff;
+    transition: 0.5s;
+}
+
+.contenidoPrincipal .container{
+    display:flex-start;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenidoPrincipal .container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.subtitulo{
+    color: #000000;
+    width: 100vw;
+    height: 4vh;
+    margin-right: 25rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenidoPrincipal-cursos-link a:before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+body{
+    background-color: #F2F5F7;
+    font-family: "Open Sans", Arial, sans-serif;
+    width: 100vw
+}
+
+@media(min-width: 768px){
+
+}

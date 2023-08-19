@@ -11,7 +11,6 @@
 }
 
 .headerPrincipal-titulo {
-    
     background-color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
@@ -36,13 +35,17 @@
     color: #6701ff;
     transition: 0.5s;
 }
+/* ---------------------------------------------*/
+
 
 .contenidoPrincipal .container{
-    display:flex-start;
+    display:flex;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
 
 .contenidoPrincipal .container a{
@@ -51,25 +54,58 @@
 }
 
 .subtitulo{
+    display:flex;
+    width: 81.2vw;
+    height: 75vh;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: center;
     color: #000000;
-    width: 100vw;
-    height: 4vh;
-    margin-right: 25rem;
+    padding-bottom: 0.9rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
     font-size: 2rem;
     font-weight: 700;
-    padding-left: 9rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    font-weight: 70;
 }
 
-.contenidoPrincipal-cursos-link a:before{
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    margin: 10px auto;
+.contenidoPrincipal-cursos{
+    margin-left: 6rem;
+    display: flex;
+    width: 185vh;
+    height: 99vh;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
 }
 
+.contenidoPrincipal-cursos-link{
+    background-image: url("background2.svg");
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(25% - 2.8rem);
+    height: calc(33.33% - 7rem);
+    margin: 10px;
+}
+
+.contenidoPrincipal-cursos-link a:hover{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 19rem;
+    height: 8rem;
+
+}
+.contenidoPrincipal-cursos-link:nth-child(even) a:before {
+	background: url(../img/background1.svg) no-repeat;	
+}
+.contenidoPrincipal-cursos-link:nth-child()a:before{
+    background: url(C:\Users\josea\Documents\Reposteriafina\Practica\img\background2.svg) no-repeat;
+}
 body{
     background-color: #F2F5F7;
     font-family: "Open Sans", Arial, sans-serif;
@@ -78,4 +114,14 @@ body{
 
 @media(min-width: 768px){
 
+}
+.videoSobre{
+
+    display:flex;
+    margin-top: 6rem;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }

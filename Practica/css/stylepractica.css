@@ -214,7 +214,6 @@ font-size: 3rem;
     font-size: 1.7rem;
     font-weight: 700;
     color: #24d69e;
-    background-color: #000000;
 
 }
 
@@ -222,21 +221,20 @@ font-size: 3rem;
     font-size: 1.7rem;
     font-weight: 700;
     color: #22ecf3;
-    background-color: #000000;
 
 }
 .navmap-list-title-framework{
     font-size: 1.7rem;
     font-weight: 700;
     color: #b615c8;
-    background-color: #000000;
 }
+
 .navmap-list-title-bancoDeDados{
     font-size: 1.7rem;
     font-weight: 700;
     color: #e49c0a;
-    background-color: #000000;
 }
+
 
 
 .navmap-list-title-container{
@@ -245,10 +243,20 @@ font-size: 3rem;
 
 }
 
-.navmap-list-title-container{
-    background-color: #000000;
-
+.rodapePrincipal-patrocinadores{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+.rodapePrincipal-patrocinadores-list{
+    width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+
 }
+.rodapePrincipal-contatoForm{
+
+}
+
+
+

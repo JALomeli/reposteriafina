@@ -57,7 +57,7 @@
     color: #000000;
     display:flex;
     width: 81.2vw;
-    height: 75vh;
+    height: vh;
     align-self: flex-start;
     flex-direction: column;
     justify-content: center;
@@ -100,8 +100,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0.3rem 0.3rem 0.3rem;
-    width: 19rem;
-    height: 8rem;
+    width: 29rem;
+    height: 10rem;
 }
 
 .contenidoPrincipal-cursos-link a:before{
@@ -130,7 +130,7 @@ body{
 .videoSobre{
 
     display:flex;
-    margin-top: 6rem;
+    margin-top: 10rem;
     width: 100vw;
     height: 100vh;
     background-color: #00a2d4;
@@ -157,12 +157,14 @@ body{
 .videoSobre-sobre-title{
 font-weight: 700;
 font-size: 3rem;
+display: flex;
+flex-direction: row;
 }
 .videoSobre-sobre-list{
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
+    padding: 7rem;
 }
 
 .videoSobre-button{
@@ -176,86 +178,123 @@ font-size: 3rem;
     box-shadow: 0.1rem 0.1rem 0.1rem;
     
 }
-.rodapePrincipal{
-    background-color: #022551;
-    height: 100vh;
-    width: 100vw;
-}
 
-.rodapePrincipal .subtitulo{
+.navmap-list-title-backend {
+    color: #24d69e;
     font-weight: 700;
-    padding-left: 7rem;
-    padding-top: 1rem;
-    font-size: 3rem;
-    height: 10vh;
-    width: 100vw;
-    color: #ffffff;
+    font-size: 2rem;
 }
+
+.navmap-list-title-frontend {
+    color: #22ecf3;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navmap-list-title-framework {
+    color: #b615c8;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navmap-list-title-bancoDeDados {
+    color: #cc1a02;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/*----------------------------------*/
+
 .rodapePrincipal-navMap{
-
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+background-color: #06365e;
+padding: 1rem;
 }
 
-.rodapePrincipal-navMap-list{
-    color: #ffffff;
+
+.rodapePrincipal .subtitulo {
+    padding-left: 9rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+	color: #faf8f8;
+    font-weight: 700;
+    font-size: 3rem;
+    display: flex;
+}
+.rodapePrincipal-navMap-list {
+
     padding-left: 7rem;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    color: #fafafa;
 }
-.rodapePrincipal-navMap-list  a{
-    
+.rodapePrincipal-navMap-link  {
+    display: flex;
+    padding: 1rem;
     text-decoration: none;
     color: inherit;
-}
-.navmap-list-title-backend{
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #24d69e;
 
 }
+.rodapePrincipal-navMap-list-title{
 
-.navmap-list-title-frontend{
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #22ecf3;
-
-}
-.navmap-list-title-framework{
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #b615c8;
-}
-
-.navmap-list-title-bancoDeDados{
-    font-size: 1.7rem;
-    font-weight: 700;
-    color: #e49c0a;
-}
-
-
-
-.navmap-list-title-container{
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    align-items: baseline;
+}
+.navmap-group{
+margin:2rem;
+display: flex;
+flex-direction: column;
+align-items: baseline;
 }
 
-.rodapePrincipal-patrocinadores{
+
+/*----------------------------------*/
+.rodapePrincipal-patrocinadores {
+	margin: 2rem;
+	background: #F2F5F7;
+
+}
+.rodapePrincipal-patrocinadores .container {
     display: flex;
-    height: 10vh;
-    width: 100vw;
-}
-.rodapePrincipal-patrocinadores-list{
-    width: 100vw;
+    flex-direction: row;
+  }
+  
+  .rodapePrincipal-patrocinadores-list {
+    width: 120vh;
+    margin-right: 7%;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+.rodapePrincipal-contatoForm {
+    width: 25%;
+  }
 
+
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	padding: 0.6rem;
 }
-.rodapePrincipal-contatoForm{
 
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	background-color: #13723b;
+	color: #FFF;
+    padding: 0.6rem;
+    margin-right: 8rem;
+}
+
+.rodapePrincipal-contatoForm-submit, .rodapePrincipal-contatoForm-emailInput {
+
+	border: 0.1rem solid #138543;
+	font-size: 1rem;
+}
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
 }
 
 

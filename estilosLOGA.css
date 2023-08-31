@@ -2,9 +2,10 @@ h1 {
 color: black;
 }
 
-.Botones a{
+.Botones-Encabezado a{
     text-decoration: none;
     color: inherit;
+    
 }
 
 .Encabezado-principal {
@@ -30,12 +31,14 @@ display: flex;
 max-height: 10rem;
 padding-left: 5rem;
 }
-.Botones-link{
-    padding: 6rem;
+.Botones-Encabezado-link{
+    padding-left: 6rem;
+    border-radius: 0%;
+    border-color: black;
 
 /*  
 
-.contenidoPrincipal-cursos-link a:hover{
+.Botones-Encabezado-link a:hover{
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;

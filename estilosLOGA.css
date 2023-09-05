@@ -68,6 +68,19 @@ margin-left: 5rem;
   }
 /* ------------------------ Encabezado -------------------*/
 
+#carouselExampleControls {
+    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    max-height: 450px;
+    object-fit: cover; 
+}
 
 /* ------------------------ Footer -------------------*/
 

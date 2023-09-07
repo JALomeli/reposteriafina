@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concurso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="estilosLOGA.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
+  </head>
+<body>
+  <header class="header">
+    <a href="index.html">
+        <img src="Imagenes/imagenes pies y cabeza/Reposteria Loga.png" alt="logoreposteria" class="btnImgHome">
+    </a>
+    <label for="search">Buscar </label>
+    <input type="search" name="search" id="search"/>
+    <a class="Botones-link" href="index.html">Inicio</a>
+    <a class="Botones-link" href="productos.html">Productos</a>
+    <a class="Botones-link" href="Concurso.html">Concurso</a>
+    <a class="Botones-link" href="iniciasesion.html">Inicia sesión</a>
+    <a href="iniciasesion.html">
+        <img src="Imagenes/imagenes pies y cabeza/cart.svg" alt="carrito" class="btnImgHome2">
+    </a>
+</header>
+<div class="flex flex-col items-center justify-center ">
+  <h4 class="font-bold text-2xl mb-2 mt-2">Ganador del concurso del año pasado</h4>
+  <figure class="figure">
+    <img src="Imagenes/imagenes home/concurso ganado.jpeg" class="figure-img img-fluid rounded" alt="Ganador del año pasado">
+    <figcaption class="figure-caption flex flex-col items-center justify-center mb-2">Mariana Fernanda Gutierrez, 32 años, Chihuahua, Chihuahua</figcaption>
+  </figure>
+</div>
+<div class="flex items-center justify-center ">
+  <div class="w-3/4"> 
+    <table class="table table-dark table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Número de votos</th>
+          <th scope="col">Ciudad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mariana</td>
+          <td>5006</td>
+          <td>Chihuahua</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Saul</td>
+          <td>4957</td>
+          <td>Juarez</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Rodrigo</td>
+          <td>4859</td>
+          <td>Chihuahua</td>
+        </tr>
+        <tr>
+          <th scope="row">30005</th>
+          <td>Kaleb</td>
+          <td>202</td>
+          <td>Github</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div class="flex justify-center items-center min-h-screen mt-16 mb-16 ">
+ 
+<form>
+    <div class="space-y-12">
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900">Instrucciones sobre el concurso</h2>
+        <p class="mt-1 text-sm leading-6 text-gray-600">Aviso importante: la informacion que envias va a estar disponible publicamente para que  tengas cuidado con lo que compartes <br> Llena el siguiente formulario para ganarte una membresia de un año de reposteria fina:</p>
+  
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-4">
+            <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Nombre de Usuario:</label>
+            <div class="mt-2">
+              <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="BananaJoe419">
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-span-full">
+            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Cuentanos tus momentos favoritos con nuestra reposteria:</label>
+            <div class="mt-2">
+              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="La primera vez que probe la reposteria me hizo llorar de felicidad y siempre vuelvo a..."></textarea>
+            </div>
+            <p class="mt-3 text-sm leading-6 text-gray-600">Escribe unos cuantos parrafos sobre tu experiencia (Minimo 2)</p>
+          </div>
+  
+          <div class="col-span-full">
+            <label for="photo" class="block text-sm font-medium leading-6 text-gray-900">Fotografia del participante de frente y sin accesorios:</label>
+            <div class="mt-2 flex items-center gap-x-3">
+              <svg class="h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+              </svg>
+              <button type="button" class="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Sube/Cambia tu foto</button>
+            </div>
+          </div>
+  
+          <div class="col-span-full">
+            <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900">Envianos una foto tuya con la reposteria que compraste:</label>
+            <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
+              <div class="text-center">
+                <svg class="mx-auto h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
+                </svg>
+                <div class="mt-4 flex text-sm leading-6 text-gray-600">
+                  <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
+                    <span>Sube tu fotografia</span>
+                    <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                  </label>
+                  <p class="pl-1">o suelta aqui</p>
+                </div>
+                <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF hasta 10MB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900">Informacion Personal</h2>
+        <p class="mt-1 text-sm leading-6 text-gray-600">Esta informacion solo la vera los encargados del concurso de reposteria loga con fines para enviar su membresia y productos, por lo tanto la informacion no sera publica.</p>
+  
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Primer y/o Segundo Nombre</label>
+            <div class="mt-2">
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-3">
+            <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Apellido(s)</label>
+            <div class="mt-2">
+              <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-4">
+            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Dirreccion de correo electronico</label>
+            <div class="mt-2">
+              <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-3">
+            <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Estado de residencia</label>
+            <div class="mt-2">
+              <select id="country" name="country" autocomplete="country-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+                <option>Chihuahua</option>
+                <option>Jalisco</option>
+                <option>Oaxaca</option>
+              </select>
+            </div>
+          </div>
+  
+          <div class="col-span-full">
+            <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Calle</label>
+            <div class="mt-2">
+              <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-2 sm:col-start-1">
+            <label for="city" class="block text-sm font-medium leading-6 text-gray-900">Ciudad</label>
+            <div class="mt-2">
+              <input type="text" name="city" id="city" autocomplete="address-level2" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+  
+          <div class="sm:col-span-2">
+            <label for="postal-code" class="block text-sm font-medium leading-6 text-gray-900">Codigo Postal</label>
+            <div class="mt-2">
+              <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900">Notificaciones</h2>
+        <p class="mt-1 text-sm leading-6 text-gray-600">Al entrar al concurso aceptas nuestros terminos y condiciones.</p>
+  
+        <div class="mt-10 space-y-10">
+          <fieldset>
+            <legend class="text-sm font-semibold leading-6 text-gray-900">Por correo</legend>
+            <div class="mt-6 space-y-6">
+              <div class="relative flex gap-x-3">
+                <div class="flex h-6 items-center">
+                  <input id="comments" name="comments" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                </div>
+                <div class="text-sm leading-6">
+                  <label for="comments" class="font-medium text-gray-900">Comentarios</label>
+                  <p class="text-gray-500">Se te hara llegar una notifiacion si comentan en tu fotografia.</p>
+                </div>
+              </div>
+              <div class="relative flex gap-x-3">
+                <div class="flex h-6 items-center">
+                  <input id="candidates" name="candidates" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                </div>
+                <div class="text-sm leading-6">
+                  <label for="candidates" class="font-medium text-gray-900">Candidatos</label>
+                  <p class="text-gray-500">Se te hara llegar una notifiacion si eres uno de los candidatos finales para ganar el concurso</p>
+                </div>
+              </div>
+              <div class="relative flex gap-x-3">
+                <div class="flex h-6 items-center">
+                  <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+                </div>
+                <div class="text-sm leading-6">
+                  <label for="offers" class="font-medium text-gray-900">Ofertas</label>
+                  <p class="text-gray-500">Se te hara llegar cuando Reposteria Loga tenga ofertas nuevas en sus productos</p>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="mt-6 flex items-center justify-end gap-x-6">
+      <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
+      <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+    </div>
+  </form>
+</div>
+  
+
+<div id="accordion-collapse" data-accordion="collapse">
+  <h2 id="accordion-collapse-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+      <span>¿Cómo puedo participar en el concurso?</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+      <p class="mb-2 text-gray-500 dark:text-gray-400"> 1. Regístrate en nuestra plataforma o inicia sesión si ya tienes una cuenta. <br> 2. Visita la página del concurso. <br>3. Completa el formulario de inscripción con tus datos personales y responde a todas las preguntas requeridas. <br>4. Sube una foto tuya con la repostería. <br>¡Listo! Tu participación estará registrada y podrás optar a ganar increíbles premios.</p>
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+      <span>¿Cuáles son los premios que puedo ganar?</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">Tenemos premios emocionantes para los ganadores del concurso. El primer lugar recibirá una membresía de un año de repostería fina totalmente gratuita. Además, los tres primeros lugares recibirán cajas de productos de repostería exclusivos y descuentos especiales en nuestros productos</p>
+
+    </div>
+  </div>
+  <h2 id="accordion-collapse-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+      <span> ¿Cómo se selecciona al ganador del concurso?</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">El ganador se seleccionará mediante un proceso de votación en línea. Una vez que hayas participado en el concurso, tu foto con el producto estará disponible en nuestra página. Invita a tus amigos y familiares a votar por tu foto. Al final del período de votación, las fotos con más votos serán los ganadores. Asegúrate de compartir tu participación en redes sociales para obtener más votos y aumentar tus posibilidades de ganar. ¡Buena suerte!</p>
+      <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>© 2023 Reposteria LOGA. Todos los derechos reservados.</p>
+        <p>Contáctanos: <a href="mailto:info@reposterialoga.com">info@reposterialoga.com</a></p>
+        <a href="https://www.facebook.com/"><img src="Imagenes/imagenes pies y cabeza/Logo_de_Facebook.webp" alt="logofacebook" class="btnImgFooter"></a>
+        <a href="https://www.instagram.com/"><img src="Imagenes/imagenes pies y cabeza/Instagram_logo_2016.webp" alt="logoinstagram" class="btnImgFooter"></a>
+        <a href="https://www.whatsapp.com/?lang=es_LA"><img src="Imagenes/imagenes pies y cabeza/WhatsApp.webp" alt="logowhatsapp" class="btnImgFooter"></a>
+    </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+</body>
+</html>

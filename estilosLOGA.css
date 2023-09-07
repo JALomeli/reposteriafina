@@ -6,12 +6,12 @@ font-size: 3rem;
 h2 {
     color: black;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #0027d3;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2.5rem;
 }
 
@@ -34,6 +34,11 @@ header {
 label {
     margin: 0 10px; 
 }
+.btnImgHome2 {
+    margin-left: 2rem;
+    width: 60px; 
+    height: 60px;
+}
 
 
 .Botones-link {
@@ -43,10 +48,10 @@ label {
     margin: 0 10px; 
     border: .01rem solid #000000;
     border-radius: .1rem;
-    margin: 2rem;
+    margin: 1rem;
     text-decoration: none;
     color: inherit;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .Botones-link:hover {
@@ -91,7 +96,7 @@ label {
     object-fit: cover; 
 }
 .btn{
-    margin: 1rem ;
+    margin: 0.5rem ;
 }
 
 /* Estilos para el contenedor de las cartas */
@@ -160,39 +165,69 @@ font-size: 2.5rem;
     text-decoration: underline;
 }
 
+
+.card-img-top{
+    display: flex;
+    align-self: center;
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.personacirculo{
+    display: block; 
+    margin: 0 auto;
+    height: 10rem;
+
+}
+.login-box {
+
+    background-color: #fff;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+
 /* ------------------------ Footer -------------------*/
 
-.Footer-principal{
+.footer{
     display: flex;
-    align-items: center;    
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background: rgb(254,202,207);
     background: radial-gradient(circle, rgba(254,202,207,1) 0%, rgba(224,142,150,1) 100%); 
     width: 100%;
     height: 9vh;
     border: .1rem solid #000000;
 }
-.Footer-principal .container{
+.footer-content {
     display: flex;
-    align-items: center;    
-    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
 }
 
-.DerechosyContactanos{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    margin-right: 30%
-}
 
-.Botones-footer{
-    display: flex;
-    flex-direction: row;
 
-}
 
 .btnImgFooter{
-    margin-left: 250%;
-    max-height: 4rem;
+    margin: 2rem;
+    max-height: 7rem;
     padding: 15%;
 }

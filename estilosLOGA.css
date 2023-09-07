@@ -214,16 +214,14 @@ font-size: 2.5rem;
     background: rgb(254,202,207);
     background: radial-gradient(circle, rgba(254,202,207,1) 0%, rgba(224,142,150,1) 100%); 
     width: 100%;
-    height: 9vh;
-    border: .1rem solid #000000;
+    height: 100%;
+
 }
 .footer-content {
     display: flex;
     align-items: center;
-    gap: 20px; 
+ 
 }
-
-
 
 
 .btnImgFooter{
